@@ -121,7 +121,7 @@ button {
     justify-content: center;
     align-items: center;
     height: 426px;
-    padding: 0 499px 0 350px;
+    
 }
 
 .quote {
@@ -133,7 +133,12 @@ button {
 }
 
 .author {
-    align-self: flex-end;
     font-weight: 700;
     font-size: 23px;
+    text-align: right;
+}
+
+.quote,
+.author {
+    width: 600px;
 }
