@@ -81,8 +81,59 @@ button {
 
 .squares-container {
     text-align: center;
+    height: 500px;
+    display: none;
+}
+
+#sq-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 1.15em 0 1.2em 0;
 }
 
 .squares {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.square {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 7px;
+    border: 4px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+}
+
+.img-text {
+    width: 160px;
+    font-size: 18px;
+    font-weight: 80;
+    color: rgb(76, 76, 76);
+}
+
+.wisdom {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 426px;
+    padding: 0 499px 0 350px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 70;
+    padding-bottom: 20px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 23px;
 }
