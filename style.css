@@ -7,9 +7,9 @@ body {
     background-color: #1f2937 ;
     color: #f9faf8;
     height: 480px;
-    padding: 10px 210px 50px 210px;
-    display: none;
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .intro-top {
@@ -23,6 +23,11 @@ body {
     justify-content: space-between;
     align-items: center;
     flex: 1;
+}
+
+.intro-top,
+.intro-bottom {
+    width: 1020px;
 }
 
 ul {
@@ -40,18 +45,20 @@ a {
 #header-logo {
     width: 25%;
     height: auto;
+    border-radius: 5px;
 }
 
 #concrete {
     width: 50%;
     height: auto;
+    border-radius: 10px;
 }
 
 .header {
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 7px;
-    letter-spacing: .05em;
+    letter-spacing: .03em;
 }
 
 .head-container {
@@ -63,7 +70,9 @@ a {
 }
 
 a, 
-.text {
+.text,
+#join,
+.footer {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 80;
@@ -82,7 +91,6 @@ button {
 .squares-container {
     text-align: center;
     height: 500px;
-    display: none;
 }
 
 #sq-title {
@@ -141,4 +149,43 @@ button {
 .quote,
 .author {
     width: 600px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937 ;
+}
+
+.sign {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    height: 150px;
+    width: 800px;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 108px;
+}
+
+#button-border {
+    border: white solid 2px;
+    padding: 6px 32px;
+}
+
+#time {
+    font-size: 23px;
+    font-weight: 550;
+    letter-spacing: 0.3px;
+    margin-bottom: 4px;
 }
